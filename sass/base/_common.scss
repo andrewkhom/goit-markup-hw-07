@@ -1,0 +1,35 @@
+// другий паршал//
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after  {
+    box-sizing: inherit;
+}
+
+
+
+
+body {
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;    
+    margin: 0;
+}
+
+.list {
+    list-style: none ;
+    padding: 0;
+    margin: 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
