@@ -1,1 +1,22 @@
-// четвертий  паршал//
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
+}
+
+
+.contacts {
+    margin-right: 10px;
+
+& use {
+    transition: fill var(--transition);
+}
+    
+}// четвертий  паршал//

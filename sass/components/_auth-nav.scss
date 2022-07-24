@@ -1,0 +1,29 @@
+.auth-nav .link{
+color: var(--paragraph-text-color);
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.3;
+letter-spacing: 0.02em;  
+text-decoration: none;
+padding: 32px 0;
+    
+transition: color var(--transition);
+}
+
+.auth-nav .item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.auth-nav {
+    display: flex;
+    margin-left: auto;
+}
+
+.auth-nav .item .link:hover,
+.auth-nav .item .link:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+

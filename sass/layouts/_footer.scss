@@ -1,0 +1,49 @@
+footer {
+background-color: var(--footer-background-color);
+}
+
+address {
+padding-top: 20px;
+     
+}
+
+.footer {
+    padding: 60px 0;
+}
+
+ 
+.footer-content {
+    display: flex;
+}
+
+
+.studio-logo {
+    color: #FFFFFF;
+}
+
+.address {
+    color: #FFFFFF;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.contact-info{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+&:hover,
+&:focus {
+    color: var(--accent-color);
+}
+}
+

@@ -1,0 +1,40 @@
+.hero-title {
+max-width: 650px;
+color: var(--main-paragraph-color);
+font-size: 44px;
+margin: 0 auto;
+margin-bottom: 30px;
+
+}
+
+
+.title {
+color: #212121;
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
+margin-top: 0px;
+}
+
+.title .discription {
+color: var(--main-text-color);
+    
+}
+
+.title-footer{
+font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+margin-top: 0px;
+margin-bottom: 20px;
+color: rgba(255, 255, 255, 1);
+} 

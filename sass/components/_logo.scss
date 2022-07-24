@@ -1,9 +1,24 @@
 .logo__link {
     color: var(--main-text-color);
-    font-family: Raleway, sans-serif;
+    font-family: var(--secondary-font), sans-serif;
     text-decoration: none;
 }
 
 .logo--color {
-    color: var(---accent-color);
+    color: var(--accent-color);
 }
+
+
+.logo__link--footer {
+    color: var(--accent-color);
+    font-family: var(--secondary-font), sans-serif;
+    text-decoration: none;
+}
+
+.logo, .logo-color {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    
+    }

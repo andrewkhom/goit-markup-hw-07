@@ -1,5 +1,6 @@
 //utiles styles
 @import "./utils/vars";
+@import "./utils/mixins";
 
 //base styles
 @import "./base/common";
@@ -7,8 +8,16 @@
 //components styles
 @import "./components/buttons";
 @import "./components/logo";
+@import "./components/container";
+@import "./components/socials";
+@import "./components/title";
+@import "./components/main-nav";
+@import "./components/site-nav";
+@import "./components/auth-nav";
 
-//layout styles
+//layouts
 @import "./layouts/header";
- 
-
+@import "./layouts/main";
+@import "./layouts/footer";
+@import "./layouts/portfolio";
+@import "./layouts/modal";

@@ -21,15 +21,22 @@ body {
     margin: 0;
 }
 
-.list {
-    list-style: none ;
-    padding: 0;
-    margin: 0;
-}
-
 .link {
     display: flex;
     align-items: center;
-
     position: relative;
+}
+
+.link-current {
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.link.link-current {
+    color: var(--accent-color);
 }
