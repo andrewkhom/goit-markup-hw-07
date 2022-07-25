@@ -57,6 +57,10 @@ body {
   color: var(--accent-color);
 }
 
+.item {
+  list-style: none;
+}
+
 .hero-button {
   background-color: var(--accent-color);
   color: var(--main-paragraph-color);
@@ -311,6 +315,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
+  margin-bottom: 0px;
 }
 
 .site-nav .item:not(:last-child) {
